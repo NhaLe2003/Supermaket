@@ -2,7 +2,7 @@
 
 namespace Supermaket.Domain.Models
 {
-    public enum EUnitOfMeasurement : byte
+    public enum EUnitOfMeasurement : int
     {
         [Description("UN")]
         Unity = 1,
