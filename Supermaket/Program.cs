@@ -18,6 +18,9 @@ builder.Services.AddDbContext<AppDbContext>(op => op.UseSqlServer(
 
 builder.Services.AddScoped<ICategoryRespository , CategoryRepository>();
 builder.Services.AddScoped<ICategoryService, CategoryService>();
+builder.Services.AddScoped<IProductRepository, ProductRepository>();
+builder.Services.AddScoped<IProductService, ProductService>();
+
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 
 builder.Services.AddAutoMapper(typeof(Program));

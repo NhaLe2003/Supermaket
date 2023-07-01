@@ -11,6 +11,7 @@ namespace Supermaket.Mapping
         public ResourceToModelProfile() 
         { 
             CreateMap<SaveCategoryResource, Category>();
+            CreateMap<ProductResource, Product>();
         }
     }
 }

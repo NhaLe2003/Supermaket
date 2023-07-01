@@ -5,7 +5,9 @@ namespace Supermaket.Resources
     public class SaveCategoryResource
     {
         [Required]
-        [MaxLength(30)]
+        [MaxLength(50)]
         public string Name { get; set; }
+
+        
     }
 }
